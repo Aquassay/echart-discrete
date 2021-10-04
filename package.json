@@ -1,5 +1,5 @@
 {
-  "name": "@aquassay/echart-discrete",
+  "name": "@aquassay/echarts-discrete",
   "version": "0.0.1",
   "description": "Echart discrete representation. Sorks only with time axis",
   "main": "index.js",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/Aquassay/echart-discrete/issues"
   },
-  "homepage": "https://github.com/Aquassay/echart-discrete#readme"
+  "homepage": "https://github.com/Aquassay/echart-discrete#readme",
+  "devDependencies": {
+    "echarts": "^5.2.1",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  }
 }
