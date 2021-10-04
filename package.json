@@ -1,0 +1,23 @@
+{
+  "name": "@aquassay/echart-discrete",
+  "version": "0.0.1",
+  "description": "Echart discrete representation. Sorks only with time axis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aquassay/echart-discrete.git"
+  },
+  "keywords": [
+    "echart",
+    "discrete"
+  ],
+  "author": "Aquassay",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Aquassay/echart-discrete/issues"
+  },
+  "homepage": "https://github.com/Aquassay/echart-discrete#readme"
+}
