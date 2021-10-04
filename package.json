@@ -4,7 +4,9 @@
   "description": "Echart discrete representation. Sorks only with time axis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode development",
+    "release": "webpack --mode production && webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,8 @@
     "echarts": "^5.2.1",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0"
+  },
+  "peerDependencies": {
+    "echarts": "^5.0.1"
   }
 }
