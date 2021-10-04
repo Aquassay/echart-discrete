@@ -7,6 +7,9 @@ echarts.extendSeriesModel({
 
         // validate globalOptions only if xAxis is in time format and max is setted. 
         // Without this informations, discrete panel does not works
+        if (!globalOption.xAxis) {
+            throw new Error('Discrete series need one xAxis');
+        }
 
         if (globalOption.xAxis[0].type !== 'time') {
             throw new Error('Discrete series only works with time axis');
