@@ -4,7 +4,7 @@ module.exports = (env, options) => {
             'echarts-discrete' : __dirname + '/index.js'
         },
         output: {
-            libraryTarget   : 'umd',
+            libraryTarget   : 'global',
             library         : ['echarts-discrete'],
             path            : __dirname + '/dist',
             filename        : options.mode === 'production' ? '[name].min.js' : '[name].js'
@@ -13,7 +13,8 @@ module.exports = (env, options) => {
             concatenateModules : true
         },
         externals : {
-            'echarts/lib/echarts': 'echarts'
+            'echarts/lib/echarts': 'echarts',
+            'date-fns' : 'date-fns',
         },
         devtool : 'source-map',
         resolve : {

@@ -23,11 +23,13 @@
   },
   "homepage": "https://github.com/Aquassay/echart-discrete#readme",
   "devDependencies": {
+    "date-fns": "^2.25.0",
     "echarts": "^5.2.1",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0"
   },
   "peerDependencies": {
-    "echarts": "^5.0.1"
+    "echarts": "^5.0.1",
+    "date-fns": "^2.25.0"
   }
 }
